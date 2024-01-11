@@ -23,5 +23,12 @@ class Program
             System.Console.WriteLine("you are old");
         }
 
+        System.Console.Write("What is your first name? ");
+        string f_name = Console.ReadLine();
+
+        System.Console.Write("What is your last name? ");
+        string l_name = Console.ReadLine();
+
+        System.Console.WriteLine($"Your name is {l_name}, {f_name} {l_name}.");
     }
 }
