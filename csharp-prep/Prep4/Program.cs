@@ -1,4 +1,5 @@
 using System;
+using System.Globalization;
 using System.Numerics;
 
 class Program
@@ -8,7 +9,6 @@ class Program
         Console.WriteLine("Hello Prep4 World!");
 
         int total = 0;
-        int biggest_number = 0;
 
         List<int> numbers; 
         numbers = new List<int>();
@@ -27,10 +27,12 @@ class Program
 
         }
 
+        int biggest_number = numbers[0];
+
         foreach (int number in numbers) 
         {
 
-            total = total + number;
+            total += number;
 
             if (biggest_number > number)
             {
@@ -46,8 +48,6 @@ class Program
         System.Console.WriteLine($"The sum is: {total}");
         System.Console.WriteLine($"The average is: {average}");
         System.Console.WriteLine($"The largest number is: {biggest_number}");
-
-
 
     }
 }
