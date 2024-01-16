@@ -18,7 +18,7 @@ class Program
         
         int user_numbers = -1;
 
-        System.Console.WriteLine("Enter a list of numbers, enter 0 when done.");
+        System.Console.WriteLine("Enter a list of numbers, type 0 when finished.");
 
         while (user_numbers != 0) 
         {
