@@ -7,7 +7,7 @@ class Program
         Console.WriteLine("Hello Prep3 World!");
 
         //Console.Write("What is the magic number? ");
-        // int magic_Number = int.Parse(Console.ReadLine());
+        //int magic_Number = int.Parse(Console.ReadLine());
 
         int guess_number = 0;
 
