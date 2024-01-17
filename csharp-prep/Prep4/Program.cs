@@ -34,7 +34,7 @@ class Program
 
             total += number;
 
-            if (biggest_number > number)
+            if (biggest_number < number)
             {
                 biggest_number = number;
             }

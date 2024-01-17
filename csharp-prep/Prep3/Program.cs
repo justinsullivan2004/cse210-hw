@@ -27,7 +27,7 @@ class Program
             {
                 System.Console.WriteLine("Higher");
             }
-            else
+            if (guess_number == magic_number)
             {
                 System.Console.WriteLine("Congrats! You guessed it. ");
             }
