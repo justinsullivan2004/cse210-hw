@@ -37,7 +37,7 @@ class Program
                 entry.getEntry(GetRandomPrompt());
                 userEntry = entry.ConstructEntry(GetRandomPrompt());
 
-                System.Console.WriteLine(userEntry);
+                
                 entryList.Add(userEntry);
 
             }
