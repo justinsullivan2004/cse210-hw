@@ -33,7 +33,6 @@ public class Journal
 
         foreach (string line in lines)  
         {
-
             string[] parts = line.Split(",");
 
             string prompt = parts[0];
