@@ -28,7 +28,7 @@ class Scripture
     }
     //had issues with Display since I had a display method in each class 
     //so with the override method to help my classes be more clear about 
-    //which class information I am trying to display/use
+    // //which class information I am trying to display/use
     public override string ToString()
     {
         return string.Join("\n", verses.Select(v => v.ToString()));
