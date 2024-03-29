@@ -9,6 +9,7 @@ class Program
     {
         // var persons = new List<Person>();
         Menu menu = new Menu();
+        Animation animation = new Animation();
         bool repeat = true;
         while (repeat == true)
         {
